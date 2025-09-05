@@ -1,0 +1,32 @@
+body {
+    background-image: url(../img/iStock-471619541-1024x680.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4em;
+}
+
+.card {
+    background-color: rgb(27, 157, 244);
+    align-items: center;
+    margin-top: 4em;
+    margin-left: 30em;
+    margin-right: 30em;
+    padding: 3em;
+}
+
+#toFill {
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+button {
+    width: fit-content;
+    align-self: center;
+}
