@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
         alert.classList.add("d-none");
        }, 3000);
     } else {
-       window.location.href = "../Main/index.html";
+       window.location.href = "../Main/form.html";
     }
   });
 });
