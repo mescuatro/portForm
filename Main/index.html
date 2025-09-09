@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css">
+     <script src="form.js"></script>
+    </head>
+
+    <body>
+
+     <div id="title">
+     <h1>This form is to sign you up for a free pizza 🍕</h1>
+     </div>
+     <div id="form" class="card">
+        <div>
+        <p>Name:  <input type="text" id="name" required></p>
+        </div>
+        <div>
+        <p>Surname:  <input type="text" id="surname" required></p>
+        </div>
+        <div>
+        <p>Age:  <input type="text" id="age" required></p>
+        </div>
+        <div>
+        <p>Country:  <input type="text" id="country" required></p>
+        </div>
+        <div>
+        <p>Phone number:  <input type="text" id="phNumber" required></p>
+        </div>
+     </div>
+
+     <button id="formB" class="btn btn-warning">Send</button>
+
+     <div id="alerta" class="alert alert-danger d-none" role="alert"></div>
+    
+    </body>
+
+</html>

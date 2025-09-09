@@ -1,0 +1,36 @@
+body {
+    background-image: url(../img/bgmain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+  margin: 4em;
+  color: rgb(255, 255, 255);
+  border-radius: 1em;
+  display: flex;
+  width: fit-content;
+}
+
+#form {
+    background-color: rgb(255, 199, 14);
+    margin-left: 7em;
+    width: fit-content;
+    padding: 3em;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#formB {
+    margin-top: 2em;
+    margin-left: 21em;
+}
+
+#alerta {
+    margin-top: 2em;
+    margin-left: 18.5em;
+    margin-bottom: 3em;
+    width: fit-content;
+    position: fixed;
+}
