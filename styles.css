@@ -1,17 +1,22 @@
 body {
-    background-image: url(../img/iStock-471619541-1024x680.jpg);
+    background-image: url(../img/sea.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
 }
 
 h1 {
-    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    align-self: center;
+    margin: 0 auto;
     margin-top: 4em;
+    padding: 0.3em;
+    border-radius: 3em;
 }
 
 .card {
-    background-color: rgba(4, 84, 138, 0.785);
+    background-color: rgba(4, 84, 138);
     align-items: center;
     margin-top: 4em;
     margin-left: 30em;
